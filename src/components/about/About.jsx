@@ -14,22 +14,21 @@ const About = () => {
               <img src = {me} />
             </div>
             </div>
-    <div classname = "about-content">
-        <div classname = "skills-cards">
-        <article classname = "skills-card"> 
-<HiOutlineDesktopComputer/><h5>Applications and Technologies</h5>
+    <div className = "about-content">
+        <div className = "skills-cards">
+        <article className = "skills-card"> 
+<HiOutlineDesktopComputer/><h5>Applications and Frameworks</h5>
 
- <small>Bootstrap jQuery React.js Apis UX Design Git/GitHub Node</small>
+ <small>Bootstrap, jQuery, React, APIs, Git/GitHub & Node</small>
     
 </article> 
-<article classname = "skills-card"> 
+<article className = "skills-card"> 
     <HiOutlineDesktopComputer/><h5>Technical Languages</h5>
-    <small>HTML5 CSS3 JavaScript </small>
+    <small>HTML5, CSS3 & JavaScript </small>
     </article>
-    <article classname = "skills-card"> 
+    <article className = "skills-card"> 
     <HiOutlineDesktopComputer/><h5>Skills</h5>
-   <smalll>Agile Development, UX and UI Design, Scrum, Responsive Web Design, Technical Presentations and
-Group Projects</smalll> 
+   <small>Agile Development, UX/UI Design & Responsive Web Design </small> 
 
     </article>
     </div>
