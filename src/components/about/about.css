@@ -1,0 +1,119 @@
+.about-container {
+    display:grid;
+    grid-template-columns: 35% 50%;
+    gap:15%;
+
+}
+
+.about-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+}
+.me-image {
+ background: linear-gradient(var(--color-primary),transparent);
+ display: grid;
+ place-items: center;
+    width: 20rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(10%);
+    border-radius: 12rem 12rem 0 0;
+    margin-top: 4rem;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;  
+}
+
+.skills-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.skills-card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align:center;
+    transition: var(--transition);
+}
+
+.skills-card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.about-icon {
+    color: var(--color-primary);
+    font-size: 1.7rem;
+    margin-bottom: .8rem;
+}
+
+.skills-card  h5 {
+    font-size:  1rem;
+    color: var(--color-white);
+}
+
+.skills-card small {
+    font-size: .7rem;
+    color: var(--color-light);
+}
+
+.about-content p {
+    margin: 2rem 0 2.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .about-container {
+    display:grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about-me {
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+.about-content p {
+    margin: 2rem 0 2.6rem;
+    font-size: 0.5rem;
+}
+
+.me-image {
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 20rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(10%);
+    border-radius: 12rem 12rem 0 0;
+    margin-top: 4rem;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;  
+}
+
+.skills-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.skills-card {
+    background: var(--color-primary);
+    border: 1px solid transparent;
+    border-radius: 1px;
+    padding: 2rem;
+    text-align: center;
+} */

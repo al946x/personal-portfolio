@@ -1,0 +1,93 @@
+header {
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+h1, h5 {
+    text-align: center;
+    color: var(--color-white);
+    font-weight: 500;
+}
+
+
+h1 {
+    margin-top: 7.5rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+h5 {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    font-size:1.1rem;
+}
+
+
+/*CTA styles*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*Header socials styles*/
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 3rem;
+}
+
+
+/*Scroll down*/
+.scroll_down {
+position: absolute;
+right: -2.3rem;
+bottom: 5rem;
+transform: rotate(90deg);
+font-weight: 300;
+font-size: 1rem;
+}
+/* Media queries MEDIUM Devices */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+
+    }
+}
+
+/* Media queries SMALL Devices */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials {
+        display: block;
+        position: relative;
+        bottom:0px;
+        margin-top: 2rem;
+        
+    }
+
+
+    .scroll__down {
+        display: none;
+    }
+
+    .me {
+        margin-top: .5rem;
+    }
+
+
+}
+
