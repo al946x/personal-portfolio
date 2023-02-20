@@ -1,6 +1,6 @@
 # Personal Portfolio 
 # Description
-This is my personal portfolio which has been created using React. The portfolio includes the following section: about, portfolio and contact.
+This is my personal portfolio which has been created using React. The portfolio includes the following sections: about, portfolio and contact.
 [Link to the deployed project](https://al946x.github.io/personal-portfolio/)
 
 #  Screenshot 
