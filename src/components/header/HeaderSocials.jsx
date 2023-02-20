@@ -5,10 +5,6 @@ import {MdEmail} from 'react-icons/md'
 
 
 
-
-
-
-
 const HeaderSocials = () => {
     return (
         <div className="header-socials">
