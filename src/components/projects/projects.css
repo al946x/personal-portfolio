@@ -47,7 +47,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* media queries (medium screen) */
+/* media queries medium screen */
 @media screen and (max-width: 1024px){
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
@@ -57,7 +57,7 @@ h2 {
 
 }
 
-/* media queries (small screen) */
+/* media queries small screen */
 @media screen and (max-width: 600px){
     .portfolio-container {
         grid-template-columns: 1fr;
