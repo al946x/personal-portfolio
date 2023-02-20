@@ -52,6 +52,7 @@ h2 {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
+        margin-left: 4rem;
     }
 
 }
@@ -60,5 +61,6 @@ h2 {
 @media screen and (max-width: 600px){
     .portfolio-container {
         grid-template-columns: 1fr;
+        margin-left: 1rem;
     }
 }
