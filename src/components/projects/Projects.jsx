@@ -10,7 +10,7 @@ import {movieapp} from '../../images/movieapp.png'
 const portfolioData = [
     {
       id: 1,
-      image: {weatherapp},
+      image:   {weatherapp},
       title: 'Weather Forecast Dashboard',
       github: 'https://github.com/al946x/WeatherForecast_App',
       demo: 'https://al946x.github.io/WeatherForecast_App/'

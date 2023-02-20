@@ -74,56 +74,37 @@ p {
     margin-right: 8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* .about-container {
-    display:grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+/* media queries medium screen */
+@media screen and (max-width: 1024px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap:0;
+    }
+    .about-me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+     p {
+        margin: 1.2rem 0 1.6rem;
+    }
 }
 
-.about-me {
-    width: 100%;
-    display: grid;
-    place-items: center;
+/* media queries small screen */
+@media screen and (max-width: 600px) {
+    .about-me {
+        width: 50%;
+        margin: 1rem auto 2.5rem;
+    }
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .about-content {
+        text-align: center;
+        padding: 2rem;
+    }
+    p{
+        margin: 2rem 0;
+    }
 
 }
-
-.about-content p {
-    margin: 2rem 0 2.6rem;
-    font-size: 0.5rem;
-}
-
-.me-image {
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 20rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(10%);
-    border-radius: 12rem 12rem 0 0;
-    margin-top: 4rem;
-    overflow: hidden;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;  
-}
-
-.skills-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-}
-
-.skills-card {
-    background: var(--color-primary);
-    border: 1px solid transparent;
-    border-radius: 1px;
-    padding: 2rem;
-    text-align: center;
-} */
