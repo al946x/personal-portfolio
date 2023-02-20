@@ -9,13 +9,13 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
     return (
         <header>
-            <div className="container.header_container">
+            <div className="header-container">
                 <h1> Hello, I'm Alina Zenam</h1>
-                <h5 className='text-light'> Front End Developer</h5>
+                <h5> Front End Developer</h5>
                 <CTA />
                 <HeaderSocials />
 
-                <a href="#contact" className='scroll_down'>Scroll Down</a>
+                <a href="#contact" className='scroll-down'>Scroll Down</a>
 
 
             </div>

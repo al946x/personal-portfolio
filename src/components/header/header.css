@@ -4,7 +4,7 @@ header {
     overflow: hidden;
 }
 
-.header_container {
+.header-container {
     text-align: center;
     height: 100%;
     position: relative;
@@ -37,7 +37,7 @@ h5 {
     justify-content: center;
 }
 
-/*Header socials styles*/
+/*header socials styles*/
 .header-socials {
     display: flex;
     flex-direction: column;
@@ -49,8 +49,8 @@ h5 {
 }
 
 
-/*Scroll down*/
-.scroll_down {
+/*scroll down*/
+.scroll-down {
 position: absolute;
 right: -2.3rem;
 bottom: 5rem;
@@ -58,7 +58,7 @@ transform: rotate(90deg);
 font-weight: 300;
 font-size: 1rem;
 }
-/* Media queries MEDIUM Devices */
+/* media queries medium screen*/
 @media screen and (max-width: 1024px) {
     header {
         height: 100vh;
@@ -66,12 +66,12 @@ font-size: 1rem;
     }
 }
 
-/* Media queries SMALL Devices */
+/* Media queries small screen */
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
-    .header__socials {
+    .header-socials {
         display: block;
         position: relative;
         bottom:0px;
@@ -80,7 +80,7 @@ font-size: 1rem;
     }
 
 
-    .scroll__down {
+    .scroll-down {
         display: none;
     }
 

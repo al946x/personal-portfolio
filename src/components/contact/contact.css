@@ -1,22 +1,25 @@
-.container.contact-container {
-    width: 58%;
-    display:grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+.contact-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 10%;
 }
 
 .contact-options {
     display:flex;
     flex-direction:column;
-    gap: 1.2rem;
+    margin-left: 15rem;
 }
+
 .contact-option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
-
+    margin-top: .7rem;
+    display: inline-block;
+    font-size: .9rem;
 }
 
 .contact-option:hover {
@@ -29,20 +32,14 @@
     margin-bottom: .5rem;
 }
 
-.contact-option  {
-    margin-top: .7rem;
-    display: inline-block;
-    font-size: .9rem;
-
-}
 
 form {
     margin-top: .7rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-
 }
+
 input, textarea {
     width: 100%;
     padding: 1.5rem;
@@ -50,7 +47,8 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white)
+    color: var(--color-white);
+    font: var(--font-family-text);
 
 }
 

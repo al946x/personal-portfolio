@@ -39,7 +39,7 @@ html {
     line-height: 1.7em;
   }
   
-/* General Styles */
+/* general styles */
 
 .container {
     width: var(--container-width-lg);
@@ -49,8 +49,7 @@ html {
   
    h2, h3, h4, h6 {
     font-weight: 500;
-    /* margin-top: 8rem;
-    margin-bottom: .6rem; */
+
   
     
   }
@@ -61,18 +60,6 @@ html {
     width: 100%;
     object-fit: cover;
   }
-  
-  /* section {
-    padding-top: 8rem;
-    height: 100vh;
-  
-  } */
-  
-  
-  /* section > h2 {
-    color:var(--color-white);
-    margin-bottom: 3rem;
-  } */
   
   .text-light {
     color: var(--color-white);
@@ -98,6 +85,7 @@ html {
     border: 1px solid var(--color-bg);
     color: var(--color-white);
     background-color: var(--color-primary);
+    font: var(--font-family-text);
   }
 
   .btn-primary {
@@ -109,6 +97,7 @@ html {
       border: 1px solid var(--color-bg);
       color: var(--color-white);
       background-color: var(--color-primary-variant);
+      font: var(--font-family-text);
     
   }
   
@@ -117,6 +106,7 @@ html {
     color: var(--color-bg);
     border-color: transparent;
   }
+
   .btn-primary:hover {
     background: var(--color-primary);
     color: var(--color-bg);
@@ -127,7 +117,7 @@ html {
   
 
   
-  /* Media Queries (medium devices) */
+  /* media queries (medium devices) */
   @media screen and (max-width: 1024px){
     .container {
       width: var(--container-width-md);
@@ -139,18 +129,10 @@ html {
     }
   }
   
-  /* Media Queries (small devices) */
+  /* media queries (small devices) */
   @media screen and (max-width: 600px){
     .container {
       width: var(--container-width-sm);
-    }
-    section {
-      height:auto;
-      margin-top: 1.5rem;
-    }
-    
-    section > h2 {
-      margin-bottom: 2rem;
     }
   }
   
