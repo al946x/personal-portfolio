@@ -7,7 +7,7 @@ import {HiOutlineDesktopComputer} from 'react-icons/hi'
 const About = () => {
     return (
        <section id='about'>  
-       <h2>About Me</h2>
+       <h2>About</h2>
         <div className='about-container'>
             <div className = "about-me"> 
             <div className='me-image'>
