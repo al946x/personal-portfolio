@@ -56,18 +56,20 @@ input, textarea {
 /* media queries medium screen */
 
 @media screen and (max-width: 1024px) {
-    .container.contact__container {
+    .contact-container {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1rem;
+        margin-left: 5rem;
     }
 }
 
 /* media queries small screen */
 
 @media screen and (max-width: 600px) {
-    .container.contact__container {
+    .contact-container {
         width: var(--container-width-sm);
         grid-template-columns: 1fr;
         gap: 2rem;
+        margin-left: 1rem;
     }
     }

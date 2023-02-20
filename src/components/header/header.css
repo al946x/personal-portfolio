@@ -70,6 +70,7 @@ font-size: 1rem;
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        line-height: normal;
     }
     .header-socials {
         display: block;
