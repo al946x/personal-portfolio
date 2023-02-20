@@ -6,9 +6,11 @@ h2 {
     margin-top: 4rem;
 }
 .portfolio-container {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+   margin-left: 8rem;
 }
 .portfolio-item{
     background: var(--color-bg-variant);
@@ -16,6 +18,7 @@ h2 {
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+
 
 }
 
