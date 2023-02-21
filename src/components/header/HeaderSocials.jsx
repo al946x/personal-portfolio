@@ -3,8 +3,6 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 
-
-
 const HeaderSocials = () => {
     return (
         <div className="header-socials">

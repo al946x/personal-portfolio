@@ -4,6 +4,9 @@ import img1 from '../../images/weatherapp.png'
 import img2 from '../../images/recipedia.png'
 import img3 from '../../images/planner.png'
 import img4 from '../../images/movieapp.png'
+import img6 from '../../images/passwordgenerator.png'
+
+
 
 
 
@@ -45,10 +48,10 @@ const portfolioData = [
     },
     {
       id: 6,
-    //   image: 
-      title: 'xxxx',
-      github: '',
-      demo: ''
+      image: img6,
+      title: 'Password Generator',
+      github: 'https://github.com/al946x/Password_Generator',
+      demo: 'https://al946x.github.io/Password_Generator/'
     },
   ]
 
