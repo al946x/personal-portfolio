@@ -76,31 +76,28 @@ p {
 
 /* media queries */
 @media (max-width: 768px) {
-    .about-me {
-        width: 50%;
-        margin: 1rem auto 2.5rem;
-        display: grid;
-        place-items: center;
-    }
-    .skills-cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        
-    }
-    .about-content {
-        text-align: center;
-        padding: 2rem;
-    }
+
+
 
     .me-image {
-        margin-top: .5rem;
-        size-adjust: auto;
-    }
-
-
-    p{
-        margin: 2rem 0;
-        font-size: 0.5rem;
+       display: none;
+        
 }
+
+    
+
+    .skills-cards {
+        display: flex;
+        justify-content: center;
+        margin-left: -4rem;
+        gap: 0.2rem;
+   
+
     }
 
+  
+    .about-content p{
+        display: none;
+    }
+
+}

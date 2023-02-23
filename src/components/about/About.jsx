@@ -4,6 +4,7 @@ import me from '../../images/me.png'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 
 
+
 const About = () => {
     return (
        <section id='about'>  
