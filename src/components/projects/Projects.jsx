@@ -4,6 +4,7 @@ import img1 from '../../images/weatherapp.png'
 import img2 from '../../images/recipedia.png'
 import img3 from '../../images/planner.png'
 import img4 from '../../images/movieapp.png'
+import img5 from '../../images/reelsoffortune.png'
 import img6 from '../../images/passwordgenerator.png'
 
 
@@ -41,10 +42,10 @@ const portfolioData = [
     },
     {
       id: 5,
-    //   image: 
+      image: img5,
       title: 'Reels of Fortune',
       github: 'https://github.com/al946x/reelsoffortune',
-      demo: ''
+      demo: 'https://reelsoffortune.netlify.app/'
     },
     {
       id: 6,

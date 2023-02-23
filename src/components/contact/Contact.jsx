@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import {BsEnvelope} from 'react-icons/bs'
 
+
 const Contact = () => {
   return (
 <section id='contact'>
