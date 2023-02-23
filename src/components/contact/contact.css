@@ -53,23 +53,22 @@ input, textarea {
 }
 
 
-/* media queries medium screen */
 
-@media screen and (max-width: 1024px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        margin-left: 5rem;
-    }
-}
+/* media queries */
 
-/* media queries small screen */
-
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .contact-container {
         width: var(--container-width-sm);
         grid-template-columns: 1fr;
         gap: 2rem;
         margin-left: 1rem;
     }
+    }
+
+    .contact-options {
+    display:flex;
+    flex-direction:column;
+   margin: auto;
+
+        
     }

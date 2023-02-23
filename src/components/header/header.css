@@ -58,25 +58,21 @@ transform: rotate(90deg);
 font-weight: 300;
 font-size: 1rem;
 }
-/* media queries medium screen*/
-@media screen and (max-width: 1024px) {
-    header {
-        height: 100vh;
 
-    }
-}
-
-/* Media queries small screen */
-@media screen and (max-width: 600px) {
+/* media queries */
+@media (max-width: 768px) {
     header {
         height: 100vh;
         line-height: normal;
+        font-size: small;
     }
     .header-socials {
         display: block;
         position: relative;
         bottom:0px;
         margin-top: 2rem;
+        margin-right: 1.3rem;
+        gap: 0.5rem;
         
     }
 
@@ -87,6 +83,7 @@ font-size: 1rem;
 
     .me {
         margin-top: .5rem;
+        size-adjust: auto;
     }
 
 

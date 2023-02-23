@@ -47,18 +47,8 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* media queries medium screen */
-@media screen and (max-width: 1024px){
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.2rem;
-        margin-left: 4rem;
-    }
-
-}
-
-/* media queries small screen */
-@media screen and (max-width: 600px){
+/* media queries */
+@media (max-width: 768px){
     .portfolio-container {
         grid-template-columns: 1fr;
         margin-left: 1rem;

@@ -114,20 +114,8 @@ html {
   
 
   
-  /* media queries (medium devices) */
-  @media screen and (max-width: 1024px){
-    .container {
-      width: var(--container-width-md);
-    }
-    section {
-      height:auto;
-      margin-top: 1rem;
-      padding-top: 2rem;
-    }
-  }
-  
-  /* media queries (small devices) */
-  @media screen and (max-width: 600px){
+  /* media queries */
+  @media (max-width: 768px){
     .container {
       width: var(--container-width-sm);
     }
