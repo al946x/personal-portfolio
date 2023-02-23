@@ -32,7 +32,7 @@ const About = () => {
 
     </article>
     </div>
-    <p> As a motivated Front End Developer, I bring a unique blend of technical, creative, and problem-solving skills to the table. I have a strong focus on accessibility and attention to detail, allowing me to engineer responsive web applications with clean and maintainable code. With a proven record of taking web projects from concept to launch, I'm also a great team player who enjoys collaborating with others to deliver high-quality results on time. I'm passionate about creating visually appealing and user-friendly websites, and eager to learn and stay up to date with new technologies. </p>
+    <p>Front End Developer who holds a unique combination of technical, creative and problem-solving skills. Ability to create engaging and responsive web applications with clean and maintainable code and a focus on accessibility. A proven record of developing and implementing web projects from concept to launch. Passion for creating visually appealing and user-friendly web applications and keen to continue learning new technologies.</p>
 
 </div> 
  </div> 
