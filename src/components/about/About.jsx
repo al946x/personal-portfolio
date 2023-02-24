@@ -33,7 +33,7 @@ const About = () => {
 
     </article>
     </div>
-    <p>Front End Developer who holds a unique combination of technical, creative and problem-solving skills. Ability to create engaging and responsive web applications with clean and maintainable code and a focus on accessibility. A proven record of developing and implementing web projects from concept to launch. Passion for creating visually appealing and user-friendly web applications and keen to continue learning new technologies.</p>
+    <p> I have a passion for creating visually appealing and user-friendly web applications. A unique combination of technical, creative and problem-solving skills. I'm ready to bring this skill set and passion to every job I take on. </p>
 
 </div> 
  </div> 
