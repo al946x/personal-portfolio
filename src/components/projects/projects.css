@@ -51,6 +51,6 @@ h2 {
 @media (max-width: 768px){
     .portfolio-container {
         grid-template-columns: 1fr;
-        margin-left: 1rem;
+        margin-left: 2.5rem;
     }
 }

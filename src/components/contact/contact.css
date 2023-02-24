@@ -63,12 +63,15 @@ input, textarea {
         gap: 2rem;
         margin-left: 1rem;
     }
-    }
+    
 
     .contact-options {
     display:flex;
     flex-direction:column;
-   margin: auto;
-
-        
+   margin: auto;      
     }
+
+    .btn {
+        margin: auto;
+    }
+}
