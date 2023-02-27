@@ -10,6 +10,8 @@ const About = () => {
        <section id='about'>  
        <h2>About</h2>
         <div className='about-container'>
+            <div className = "about-me"> 
+            </div>
     <div className = "about-content">
         <div className = "skills-cards">
         <article className = "skills-card"> 

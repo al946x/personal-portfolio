@@ -10,6 +10,8 @@ h2 {
     font-weight: 300;
 }
 
+
+
 .skills-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -61,6 +63,8 @@ h2 {
 /* media queries */
 @media (max-width: 768px) {
 
+ 
+
     .skills-cards {
         display: flex;
         justify-content: center;
@@ -71,8 +75,8 @@ h2 {
     }
 
   
-    /* .about-content p{
-        
-    } */
+    .about-content p{
+        display: none;
+    }
 
 }
