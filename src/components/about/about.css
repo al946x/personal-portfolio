@@ -5,18 +5,15 @@
 
 h2 { 
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     font-size: 2rem;
     font-weight: 300;
 }
 
-
-
 .skills-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem; 
-    justify-content: space;
+    justify-content: space-between;
 }
 
 .skills-card {

@@ -31,14 +31,23 @@ h1, h5 {
 .header-left, h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-top: -80px;
+    margin-top: -40px;
+    font-style: normal;
 }
 
 .header-left, h5 {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-top: -100px;
+    margin-top: -50px;
+    font-style: normal;
 
+}
+
+.header-left, h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-style: italic;
 }
 
  .avatar-img {

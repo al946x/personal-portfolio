@@ -23,7 +23,7 @@ const Contact = () => {
         <input type="email" name="email" placeholder="Your Email" required />
         <input type="hidden" name="redirect" value="https://web3forms.com/success"></input>
          <textarea name="message" rows="7" required placeholder=" Your Message"></textarea>
-      <button type="submit" className="btn">Send Message</button>
+      <button type="submit" className="btn" style={{ alignSelf: "center" }}>Send Message</button>
        </form>
   </div>
       </section>

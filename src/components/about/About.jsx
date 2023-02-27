@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import me from '../../images/me.png'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 
 

@@ -13,8 +13,9 @@ const Header = () => {
             <div className="header-container">
                 <div className= "header-left">
                 <h5> Hello, I'm Alina A.</h5>
+                <h3>Crafting Cutting-Edge Web Experiences</h3>
                 <h1> Front End Developer</h1> 
-                <CTA /> 
+                <CTA />
                 </div>
                 <a href="#contact" className='scroll-down'>Scroll Down</a>
             <HeaderSocials />
