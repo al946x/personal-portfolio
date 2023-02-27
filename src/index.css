@@ -82,6 +82,7 @@ html {
     color: var(--color-white);
     background-color: var(--color-primary);
     font: var(--font-family-text);
+    font-size: 1rem;
   }
 
   .btn-primary {
