@@ -5,25 +5,28 @@
 h2 {
     margin-top: 4rem;
 }
+
 .portfolio-container {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-   margin-left: 8rem;
+    margin-left: 8rem;
 }
-.portfolio-item{
+
+.portfolio-container h3 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.portfolio-item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
-
-
 }
 
 .portfolio-item:hover {
-
     border-color: var(--color-primary-variant);
     background: transparent;
 }
