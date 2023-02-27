@@ -10,11 +10,6 @@ const About = () => {
        <section id='about'>  
        <h2>About</h2>
         <div className='about-container'>
-            <div className = "about-me"> 
-            <div className='me-image'>
-              <img src = {me} />
-            </div>
-            </div>
     <div className = "about-content">
         <div className = "skills-cards">
         <article className = "skills-card"> 

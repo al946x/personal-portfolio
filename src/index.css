@@ -12,11 +12,12 @@
 }
 
 :root {
-    --color-bg: #222330;
-    --color-bg-variant: #37374c;
-    --color-primary: #8166aa;
-    --color-primary-variant: #a191b9;
-    --color-white: #fff;
+    --color-bg: #FFFCEE;
+    --color-bg-variant: #FCF1E7;
+    --color-primary: #5A6955;
+    --color-primary-variant: #6F9283;
+    --color-text: #5A6955;
+    --color-white: #FFFCEE;
     --color-lightgrey: #bdc4d0;
     --color-light: #fff(255. 255, 255. 0.6);
     --color-black: #101010;
@@ -34,7 +35,7 @@ html {
 
   body {
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-text);
     font-family: var(--font-family-text);
     line-height: 1.7em;
   }
@@ -51,6 +52,9 @@ html {
     font-weight: 500;
   }
   
+  h2 {
+    font-weight: bold;
+  }
   
   img {
     display: block;
@@ -58,18 +62,13 @@ html {
     object-fit: cover;
   }
   
-  .text-light {
-    color: var(--color-white);
-  
-  }
   
   a {
     color: var(--color-primary);
-    transition: var(--transition)
   }
   
   a:hover {
-    color: var(--color-white)
+    color: var(--color-primary-variant);
   }
   
   
