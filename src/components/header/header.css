@@ -91,15 +91,6 @@ font-size: 1rem;
         line-height: normal;
         font-size: small;
     }
-    .header-socials {
-        display: block;
-        position: relative;
-        bottom:0px;
-        margin-top: 2rem;
-        margin-right: 1.3rem;
-        gap: 0.5rem;
-        
-    }
 
 
     .scroll-down {
@@ -107,6 +98,25 @@ font-size: 1rem;
     }
 
   
+.header-left {
+    grid-template-rows:  50px 1fr 100px;
+    margin-left: 3rem;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+   left: 53%;
+   
+}
+
+
+.avatar-img {
+  display: none;
+ }
 
 }
 

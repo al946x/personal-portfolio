@@ -65,15 +65,19 @@ h2 {
     .skills-cards {
         display: flex;
         justify-content: center;
-        margin-left: -4rem;
         gap: 0.2rem;
-   
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
-  
-    .about-content p{
-        display: none;
+    .skills-card {
+        height: 290px;
     }
 
+    .about-content p {
+        margin: auto;
+        margin-top: 2rem;
+      }
+    
 }
