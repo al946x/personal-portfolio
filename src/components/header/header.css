@@ -106,12 +106,12 @@ font-size: 1rem;
 
 .header-socials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     position: absolute;
-    left: 5%;
-    bottom: 13rem;
+    left: 29%;
+    bottom: 8rem;
    
 }
 
