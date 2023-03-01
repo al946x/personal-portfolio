@@ -109,7 +109,8 @@ font-size: 1rem;
     align-items: center;
     gap: 1rem;
     position: absolute;
-   left: 53%;
+    left: 53%;
+    bottom: 3rem;
    
 }
 
