@@ -12,48 +12,48 @@ import img6 from '../../images/passwordgenerator.png'
 
 
 const portfolioData = [
+{id: 1,
+      image: img6,
+      title: 'AI Image Generator',
+      github: 'https://github.com/al946x/ai-image-generator',
+      demo: 'https://al946x.github.io/ai-image-generator/'
+    },
     {
-      id: 1,
+      id: 2,
       image:   img1,
       title: 'Weather Forecast Dashboard',
       github: 'https://github.com/al946x/WeatherForecast_App',
       demo: 'https://al946x.github.io/WeatherForecast_App/'
     },
     {
-      id: 2,
+      id: 3,
       image: img2,
       title: 'Recipedia',
       github: 'https://github.com/o1ujok3/Recipedia',
       demo: 'https://o1ujok3.github.io/Recipedia/'
     },
     {
-      id: 3,
+      id: 4,
       image: img3,
       title: 'Work Day Scheduler',
       github: 'https://github.com/al946x/WorkDay_Scheduler',
       demo: 'https://al946x.github.io/WorkDay_Scheduler/'
     },
     {
-      id: 4,
+      id: 5,
       image: img4,
       title: 'MovieScope',
       github: 'https://github.com/al946x/MovieSearch_App',
       demo: 'https://al946x.github.io/MovieSearch_App/'
     },
     {
-      id: 5,
+      id: 6,
       image: img5,
       title: 'Reels of Fortune',
       github: 'https://github.com/al946x/reelsoffortune',
       demo: 'https://reelsoffortune.netlify.app/'
     },
-    {
-      id: 6,
-      image: img6,
-      title: 'Password Generator',
-      github: 'https://github.com/al946x/Password_Generator',
-      demo: 'https://al946x.github.io/Password_Generator/'
-    },
+    
   ]
 
 const Projects = () => {

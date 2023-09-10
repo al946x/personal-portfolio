@@ -60,8 +60,6 @@ h2 {
 /* media queries */
 @media (max-width: 768px) {
 
- 
-
     .skills-cards {
         display: flex;
         justify-content: center;
