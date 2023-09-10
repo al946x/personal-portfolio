@@ -5,7 +5,7 @@ import img2 from '../../images/recipedia.png'
 import img3 from '../../images/planner.png'
 import img4 from '../../images/movieapp.png'
 import img5 from '../../images/reelsoffortune.png'
-import img6 from '../../images/passwordgenerator.png'
+import img6 from '../../images/aiimagegenerator.png'
 
 
 
