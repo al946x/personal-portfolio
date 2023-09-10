@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "00cb90ff2286e46afe16",
+    "revision": "ed7bffd7e59fb998f30a",
     "url": "/personal-portfolio/static/css/main.f2895b02.chunk.css"
   },
   {
-    "revision": "00cb90ff2286e46afe16",
-    "url": "/personal-portfolio/static/js/main.00cb90ff.chunk.js"
+    "revision": "ed7bffd7e59fb998f30a",
+    "url": "/personal-portfolio/static/js/main.ed7bffd7.chunk.js"
   },
   {
     "revision": "b84daa318bfb04787e11",
@@ -40,11 +40,11 @@ self.__precacheManifest = [
     "url": "/personal-portfolio/static/media/reelsoffortune.633bf002.png"
   },
   {
-    "revision": "8c5c0794468998a2a21704c0bf00543e",
-    "url": "/personal-portfolio/static/media/passwordgenerator.8c5c0794.png"
+    "revision": "b4c87f3f5c5e1a46493212a93317862e",
+    "url": "/personal-portfolio/static/media/aiimagegenerator.b4c87f3f.png"
   },
   {
-    "revision": "4bc0d23201092219490528ce5f3bb905",
+    "revision": "3ea006c4c65d54203abd41fe21a74e06",
     "url": "/personal-portfolio/index.html"
   }
 ];
